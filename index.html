@@ -20,259 +20,310 @@
     <title>Code Textbook</title>
   </head>
   <body>
-    <h1>HTML Intensive Exercise Page</h1>
-
-    <h2>HTML Markup Basics</h2>
-
-    <h3>#1 - HTML Markup</h3>
-    <p>Hello, World!</p>
-
-    <h3>#2 - Tags</h3>
-    <p>The quick brown fox jumps over the lazy dog</p>
-
-    <h3>#3 - Text in HTML</h3>
-    <p>
-      Карьерный портал «Мой круг» изучил рынок IT-образования и выяснил, в каких
-      онлайн-школах эффективно учат программированию. В итоговом рейтинге
-      Хекслет занял второе место.
-    </p>
-    <p>
-      «Мой круг» опросил 3500 IT-специалистов и составил рейтинг онлайн-школ для
-      программистов. В опросе приняли участие пользователи «Моего круга» и
-      «Хабра», которые учились в онлайн-университетах. В финальной таблице
-      «Хекслет» занял второе место.
-    </p>
-
-    <h3>#4 - Tags Nesting</h3>
-    <ul>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ul>
-
-    <h3>#5 - HTML Attributes</h3>
-    <p class="hexlet" title="Lorem text">
-      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis error
-      dolorem mollitia est fugiat! Sed earum illum deserunt eligendi nemo ipsa
-      praesentium, consectetur autem, error temporibus aut natus. Placeat
-      veritatis saepe itaque repellat possimus aliquam aut id, sint suscipit
-      assumenda tenetur odio delectus doloribus earum corporis, vel sit fugit
-      eaque!
-    </p>
-
-    <h2>Text in HTML</h2>
-
-    <h3>#6 - Paragraphs</h3>
-    <p>Hello, World!</p>
-
-    <h3>#7 - Text Outline</h3>
-    <p>Hexlet - hands-on <em>programming</em> <b>courses</b></p>
-
-    <h3>#8 - Headers</h3>
-    <h4>
-      Will never ever use h4 again(but this way it's more obvious that task is
-      done here)
-    </h4>
-
-    <h3>#9 - Lists</h3>
-    <ol>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-      <li></li>
-    </ol>
-
-    <h3>#10 - Nested Lists</h3>
-    <ol>
-      <li>
-        Профессия JavaScript
-        <ul>
-          <li>Frontend</li>
-          <li>Backend</li>
-        </ul>
-      </li>
-      <li>Профессия PHP</li>
-    </ol>
-
-    <h3>#11 - Tables</h3>
-    <table>
-      <thead>
-        <tr>
-          <th>header1</th>
-          <th>header2</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <td>Data a1</td>
-          <td>Data a2</td>
-        </tr>
-        <tr>
-          <td>Data b1</td>
-          <td>Data b2</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h3>#12 - HTML: Combining cells inside rows and columns</h3>
-    <table>
-      <thead>
-        <tr>
-          <th rowspan="3">Table Head</th>
-        </tr>
-      </thead>
-
-      <tbody>
-        <tr>
-          <td colspan="2">double cell</td>
-          <td>single cell</td>
-        </tr>
-      </tbody>
-    </table>
-
-    <h3>#13 - Special symbols</h3>
-    <p>&frac14; &laquo;&nbsp;&raquo; &GreaterEqual;&nbsp;&NotLessEqual;</p>
-
-    <h3>#14 - Hyperlinks (Anchors)</h3>
-    <a href="https://code-basics.com/">Code Basics</a>
-    <h3>#15 - Format Text</h3>
-    <pre>
-Lorem ipsum
- dolor sit amet consectetur adipisicing elit.
-  Dolore, amet? Dolore placeat quis officiis, fugiat rerum eius,
-   aut officia natus vel praesentium ipsum sapiente laboriosam ducimus,
-    ullam quas assumenda laborum.</pre
-    >
-    <h3>#16 - Insert Code</h3>
-    <code>
-      int A = -10; <br />
-      int B = 11; <br />
-      int C = --B + A; <br />
-      cout &laquo; C; <br />
-    </code>
-    <h2>Media Elements</h2>
-    <h3>#17 - Images</h3>
-    <img
-      src="https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png"
-      alt="W3C"
-    />
-    <h3>#18 - Audio</h3>
-    <audio controls>
-      <source src="https://www.w3schools.com/html/horse.ogg" />
-      <source src="https://www.w3schools.com/html/horse.mp3" />
-    </audio>
-
-    <h3>#19 - Video</h3>
-    <video
-      src="https://www.w3schools.com/html/movie.mp4"
-      controls
-      width="320"
-      height="240"
-    ></video>
-
-    <h2>HTML Document Structure</h2>
-
-    <p>
-      Green Highlight is intended to show, that tasks below are done but their
-      output is not markup text but meta data and more.
-    </p>
-
-    <div class="MetaTask">
-      <h3>#20 - Basic Structure</h3>
-      <h3>#21 - Meta Tags</h3>
-      <h3>#22 - Link</h3>
-      <h3>#23 - Viewport</h3>
-    </div>
-
-    <h3>#24 - Block and Inline Elements</h3>
-    <span>Span Line 1.</span>&nbsp;<span>Span Line 2.</span>
-
-    <h2>HTML Forms</h2>
-
-    <h3 class="MetaTask">#25 - Forms in HTML</h3>
-
-    <h3>#26 - Text Input Field</h3>
-    <form action="/people">
-      <label for="name">Name</label>
-      <input type="text" id="name" name="name" placeholder="Timofey" />
-      <label for="surname">Surname</label>
-      <input
-        type="text"
-        name="surname"
-        id="Petrikevich"
-        placeholder="Petrikevich"
+    <header>
+      <img
+        src="https://logos-world.net/wp-content/uploads/2020/11/GitHub-Emblem.png"
+        alt="GitHub-Emblem"
+        width="192"
+        height="108"
+        id="HeaderLogo"
       />
-    </form>
+      <nav>
+        <ul>
+          <li>
+            <a href="https://github.com/petrik33/RS-School-HTML-Intensive">
+              Repository
+            </a>
+          </li>
+          <li><a href="https://petrik33.github.io/rsschool-cv/cv">CV</a></li>
+        </ul>
+      </nav>
+    </header>
 
-    <h3>#27 - Checkbox</h3>
-    <form action="/people">
-      <label>
-        <input type="checkbox" name="languages" value="JavaScript" />
-        JavaScript
-      </label>
-      <label>
-        <input type="checkbox" name="languages" value="C#" />
-        C#
-      </label>
-    </form>
+    <aside>
+      This exercise book is written for learning purposes and is free to use.
+    </aside>
 
-    <h3>#28 - Radiobutton</h3>
-    <form action="/people">
-      <label>
-        <input type="radio" name="delivery" value="yes" />
-        Yes
-      </label>
-      <label>
-        <input type="radio" name="delivery" value="no" />
-        No
-      </label>
-    </form>
+    <main>
+      <h1>HTML Intensive Exercise Page</h1>
 
-    <h3>#29 - Textarea</h3>
-    <form action="/people">
-      <label for="review">Оставьте свой отзыв.</label><br />
-      <textarea name="" id="review" cols="30" rows="4"> </textarea>
-    </form>
+      <section>
+        <h2>HTML Markup Basics</h2>
 
-    <h3>#30 - List</h3>
-    <form action="/people">
-      <select name="" id="">
-        <option value="JS">JavaScript</option>
-        <option value="PHP">PHP</option>
-        <option value="Java">Java</option>
-      </select>
-    </form>
+        <article>
+          <h3>#1 - HTML Markup</h3>
+          <p>Hello, World!</p>
+        </article>
 
-    <h3>#31 - Send Form</h3>
-    <form action="/people">
-      <label for="artist">Singer</label>
-      <input type="text" name="fieldArtist" id="artist" />
-      <br />
-      <label for="song">Song</label>
-      <input type="text" name="fieldSong" id="song" />
-      <br />
-      <select name="listGenre" id="genre" multiple>
-        <option value="Rock">Rock</option>
-        <option value="Rap">Rap</option>
-        <option value="Jazz">Jazz</option>
-      </select>
-      <br />
-      <button>Отправить</button>
-    </form>
+        <article>
+          <h3>#2 - Tags</h3>
+          <p>The quick brown fox jumps over the lazy dog</p>
+        </article>
 
-    <h2>HTML Semantic Elements</h2>
+        <h3>#3 - Text in HTML</h3>
+        <p>
+          Карьерный портал «Мой круг» изучил рынок IT-образования и выяснил, в
+          каких онлайн-школах эффективно учат программированию. В итоговом
+          рейтинге Хекслет занял второе место.
+        </p>
+        <p>
+          «Мой круг» опросил 3500 IT-специалистов и составил рейтинг онлайн-школ
+          для программистов. В опросе приняли участие пользователи «Моего круга»
+          и «Хабра», которые учились в онлайн-университетах. В финальной таблице
+          «Хекслет» занял второе место.
+        </p>
 
-    <h3>#32 - Semantic Elements</h3>
-    <h3>#33 - Header</h3>
-    <h3>#34 - Menu</h3>
-    <h3>#35 - Unique Page Content</h3>
-    <h3>#36 - Section</h3>
-    <h3>#37 - Independent Section</h3>
-    <h3>#38 - Sidebar</h3>
-    <h2>Different</h2>
-    <h3>#39 - Semantic WEB</h3>
-    <h3>#40 - MicroMarkup</h3>
-    <h3>#41 - HTML Markup Mistakes</h3>
+        <h3>#4 - Tags Nesting</h3>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+
+        <h3>#5 - HTML Attributes</h3>
+        <p class="hexlet" title="Lorem text">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Omnis error
+          dolorem mollitia est fugiat! Sed earum illum deserunt eligendi nemo
+          ipsa praesentium, consectetur autem, error temporibus aut natus.
+          Placeat veritatis saepe itaque repellat possimus aliquam aut id, sint
+          suscipit assumenda tenetur odio delectus doloribus earum corporis, vel
+          sit fugit eaque!
+        </p>
+      </section>
+
+      <section>
+        <h2>Text in HTML</h2>
+
+        <h3>#6 - Paragraphs</h3>
+        <p>Hello, World!</p>
+
+        <h3>#7 - Text Outline</h3>
+        <p>Hexlet - hands-on <em>programming</em> <b>courses</b></p>
+
+        <h3>#8 - Headers</h3>
+        <h4>
+          Will never ever use h4 again(but this way it's more obvious that task
+          is done here)
+        </h4>
+
+        <h3>#9 - Lists</h3>
+        <ol>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ol>
+
+        <h3>#10 - Nested Lists</h3>
+        <ol>
+          <li>
+            Профессия JavaScript
+            <ul>
+              <li>Frontend</li>
+              <li>Backend</li>
+            </ul>
+          </li>
+          <li>Профессия PHP</li>
+        </ol>
+
+        <h3>#11 - Tables</h3>
+        <table>
+          <thead>
+            <tr>
+              <th>header1</th>
+              <th>header2</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>Data a1</td>
+              <td>Data a2</td>
+            </tr>
+            <tr>
+              <td>Data b1</td>
+              <td>Data b2</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>#12 - HTML: Combining cells inside rows and columns</h3>
+        <table>
+          <thead>
+            <tr>
+              <th rowspan="3">Table Head</th>
+            </tr>
+          </thead>
+
+          <tbody>
+            <tr>
+              <td colspan="2">double cell</td>
+              <td>single cell</td>
+            </tr>
+          </tbody>
+        </table>
+
+        <h3>#13 - Special symbols</h3>
+        <p>&frac14; &laquo;&nbsp;&raquo; &GreaterEqual;&nbsp;&NotLessEqual;</p>
+
+        <h3>#14 - Hyperlinks (Anchors)</h3>
+        <a href="https://code-basics.com/">Code Basics</a>
+        <h3>#15 - Format Text</h3>
+        <pre>
+          Lorem ipsum
+          dolor sit amet consectetur adipisicing elit.
+            Dolore, amet? Dolore placeat quis officiis, fugiat rerum eius,
+            aut officia natus vel praesentium ipsum sapiente laboriosam ducimus,
+              ullam quas assumenda laborum.</pre
+        >
+        <h3>#16 - Insert Code</h3>
+        <code>
+          int A = -10; <br />
+          int B = 11; <br />
+          int C = --B + A; <br />
+          cout &laquo; C; <br />
+        </code>
+      </section>
+
+      <section>
+        <h2>Media Elements</h2>
+        <h3>#17 - Images</h3>
+        <img
+          src="https://www.w3.org/2008/site/images/logo-w3c-screen-lg.png"
+          alt="W3C"
+        />
+        <h3>#18 - Audio</h3>
+        <audio controls>
+          <source src="https://www.w3schools.com/html/horse.ogg" />
+          <source src="https://www.w3schools.com/html/horse.mp3" />
+        </audio>
+
+        <h3>#19 - Video</h3>
+        <video
+          src="https://www.w3schools.com/html/movie.mp4"
+          controls
+          width="320"
+          height="240"
+        ></video>
+      </section>
+
+      <section>
+        <h2>HTML Document Structure</h2>
+
+        <div class="MetaWarning">
+          <p>
+            <span style="color: green">Green</span> Highlight for some tasks is
+            intended to show, that they are done yet the output is not markup
+            text and can't be shown.
+          </p>
+        </div>
+
+        <div class="MetaTask">
+          <h3>#20 - Basic Structure</h3>
+          <h3>#21 - Meta Tags</h3>
+          <h3>#22 - Link</h3>
+          <h3>#23 - Viewport</h3>
+        </div>
+
+        <h3>#24 - Block and Inline Elements</h3>
+        <span>Span Line 1.</span>&nbsp;<span>Span Line 2.</span>
+      </section>
+
+      <section>
+        <h2>HTML Forms</h2>
+
+        <h3 class="MetaTask">#25 - Forms in HTML</h3>
+
+        <h3>#26 - Text Input Field</h3>
+        <form action="/people">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Timofey" />
+          <label for="surname">Surname</label>
+          <input
+            type="text"
+            name="surname"
+            id="Petrikevich"
+            placeholder="Petrikevich"
+          />
+        </form>
+
+        <h3>#27 - Checkbox</h3>
+        <form action="/people">
+          <label>
+            <input type="checkbox" name="languages" value="JavaScript" />
+            JavaScript
+          </label>
+          <label>
+            <input type="checkbox" name="languages" value="C#" />
+            C#
+          </label>
+        </form>
+
+        <h3>#28 - Radiobutton</h3>
+        <form action="/people">
+          <label>
+            <input type="radio" name="delivery" value="yes" />
+            Yes
+          </label>
+          <label>
+            <input type="radio" name="delivery" value="no" />
+            No
+          </label>
+        </form>
+
+        <h3>#29 - Textarea</h3>
+        <form action="/people">
+          <label for="review">Оставьте свой отзыв.</label><br />
+          <textarea name="" id="review" cols="30" rows="4"> </textarea>
+        </form>
+
+        <h3>#30 - List</h3>
+        <form action="/people">
+          <select name="" id="">
+            <option value="JS">JavaScript</option>
+            <option value="PHP">PHP</option>
+            <option value="Java">Java</option>
+          </select>
+        </form>
+
+        <h3>#31 - Send Form</h3>
+        <form action="/people">
+          <label for="artist">Singer</label>
+          <input type="text" name="fieldArtist" id="artist" />
+          <br />
+          <label for="song">Song</label>
+          <input type="text" name="fieldSong" id="song" />
+          <br />
+          <select name="listGenre" id="genre" multiple>
+            <option value="Rock">Rock</option>
+            <option value="Rap">Rap</option>
+            <option value="Jazz">Jazz</option>
+          </select>
+          <br />
+          <button>Отправить</button>
+        </form>
+      </section>
+
+      <section>
+        <h2>HTML Semantic Elements</h2>
+
+        <div class="MetaTask">
+          <h3>#32 - Semantic Elements</h3>
+          <h3>#33 - Header</h3>
+          <h3>#34 - Menu</h3>
+          <h3>#35 - Unique Page Content</h3>
+          <h3>#36 - Section</h3>
+          <h3>#37 - Independent Section</h3>
+          <h3>#38 - Sidebar</h3>
+        </div>
+
+        <h2>Different</h2>
+        <h3>#39 - Semantic WEB</h3>
+        <h3>#40 - MicroMarkup</h3>
+        <h3>#41 - HTML Markup Mistakes</h3>
+      </section>
+    </main>
+
+    <footer>Тимофей Петрикевич. БГУ, ФПМИ - 15 ПИ. Минск, 2022</footer>
   </body>
 </html>

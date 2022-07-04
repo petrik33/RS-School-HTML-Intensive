@@ -9,3 +9,11 @@ h1{
 h2{
     text-align: center;
 }
+.MetaWarning{
+    border: 2px solid red;
+    text-align: center;
+}
+
+img#HeaderLogo{
+    float:inline-start;
+}
